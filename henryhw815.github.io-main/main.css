@@ -1,0 +1,71 @@
+body {
+  background-color: #344baf;
+  min-height: 100%;
+}
+
+@font-face {
+	font-family: Renogare;
+	src: url('Renogare-Regular.otf') format("opentype");
+}
+
+@font-face {
+	font-family: Days;
+	src: url('Days.ttf') format("truetype");
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+h1, h2 {
+    font-family: Days;
+    color: white;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+
+a {
+    color: rgb(8, 213, 213);
+}
+
+main {
+    position: relative;
+    min-height: 92vh;
+}
+
+.home {
+    min-height: auto;
+}
+
+footer {
+    position: sticky;
+}
+
+section {
+    min-height: 80vh;
+}
+
+.back {
+    font-family: Days;
+    display: flex;
+    justify-content: center;
+}
+
+.stuff {
+    display: flex;
+    justify-content: center;
+    font-family: Renogare;
+}
+
+li, .parts {
+    font-size: 1.25em;
+}
