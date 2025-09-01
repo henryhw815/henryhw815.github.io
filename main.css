@@ -66,6 +66,6 @@ section {
     font-family: Renogare;
 }
 
-li, #parts {
+li, .parts {
     font-size: 1.25em;
 }
