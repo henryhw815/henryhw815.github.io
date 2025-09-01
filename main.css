@@ -33,8 +33,39 @@ h2 {
     margin-top: 0;
 }
 
-table {
+a {
+    color: rgb(8, 213, 213);
+}
+
+main {
+    position: relative;
+    min-height: 92vh;
+}
+
+.home {
+    min-height: auto;
+}
+
+footer {
+    position: sticky;
+}
+
+section {
+    min-height: 80vh;
+}
+
+.back {
+    font-family: Days;
+    display: flex;
+    justify-content: center;
+}
+
+.stuff {
     display: flex;
     justify-content: center;
     font-family: Renogare;
+}
+
+li, #parts {
+    font-size: 1.25em;
 }
