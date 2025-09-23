@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Homework 3 Part 2</title>
+        <link rel="stylesheet" type="text/css" href="../main.css">
+        <script src="3p2.js" defer></script>
+        <meta charset="utf-8">
+        <meta name ="author" content="Henry Wang">
+        <meta name = "description" content ="Mock sales sheet">
+    </head>
+    <body>
+        <main>
+            <h1 class="title">Sales Sheet</h1>
+            <h2> For each item, type the quantity sold:</h2>
+            <form name="input">
+                <table>
+                    <tr>
+                        <td><label for="1ct" class="stuff">Item 1:</label></td>
+                        <td><input type="number" id="1ct"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="2ct" class="stuff">Item 2:</label></td>
+                        <td><input type="number" id="2ct"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="3ct" class="stuff">Item 3:</label></td>
+                        <td><input type="number" id="3ct"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="4ct" class="stuff">Item 4:</label></td>
+                        <td><input type="number" id="4ct"></td>
+                    </tr>
+                </table>
+            <input type="button" id="calc" onclick= saleCalc() value="Submit">
+            <div id="error">
+            </div>
+            <input type="reset" value="Clear">
+            <br>
+            </form>
+            <table class="moneyout">
+                <tr>
+                    <td><label class="stuff">Item#</label></td>
+                    <td class="stuff">Price</td>
+                    <td><label class="stuff">Qty Sold</label></td>
+                    <td class="stuff">Total $</td>
+                </tr>
+                <tr>
+                    <td><label class="stuff">1</label></td>
+                    <td class="stuff">$20.99</td>
+                    <td><input type="number" id="qty1" readonly></td>
+                    <td><input type="number" id="total1"  step="any" readonly></td>
+                </tr>
+                <tr>
+                    <td><label class="stuff">2</label></td>
+                    <td class="stuff">$12.75</td>
+                    <td><input type="number" id="qty2" readonly></td>
+                    <td><input type="number" id="total2" step="any" readonly></td>
+                </tr>
+                <tr>
+                    <td><label class="stuff">3</label></td>
+                    <td class="stuff">$9.95</td>
+                    <td><input type="number"  id="qty3" readonly></td>
+                    <td><input type="number"  id="total3" step="any" readonly></td>
+                </tr>
+                <tr>
+                    <td><label class="stuff">4</label></td>
+                    <td class="stuff">$35.89</td>
+                    <td><input type="number" id="qty4" readonly></td>
+                    <td><input type="number" id="total4" step="any" readonly></td>
+                </tr>
+                <tr>
+                    <td><label class="stuff">Total Amount Sold</label></td>
+                    <td></td>
+                    <td></td>
+                    <td><input type="number" id="stotal" step="any" readonly></td>
+                </tr>
+                <tr>
+                    <td><label class="stuff">Total Weekly Earnings</label></td>
+                    <td></td>
+                    <td></td>
+                    <td><input type="number" id="weektotal" step="any" readonly></td>
+                </tr>
+            </table>
+            <a href="hw3.html" class="back">Back to HW3</a>
+        </main>
+        <footer>
+            <a href="../index.html" class="back">Home</a>
+        </footer>
+    </body>
+</html>

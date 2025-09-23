@@ -1,6 +1,8 @@
 body {
-  background-color: #344baf;
-  min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #344baf;
+    max-height: max-content;
 }
 
 @font-face {
@@ -35,6 +37,7 @@ h2 {
 
 a {
     color: rgb(8, 213, 213);
+    text-decoration: none;
 }
 
 main {
@@ -47,7 +50,12 @@ main {
 }
 
 footer {
-    position: sticky;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    left: 0;
+    right: 0;
 }
 
 section {
@@ -56,8 +64,8 @@ section {
 
 .back {
     font-family: Days;
-    display: flex;
-    justify-content: center;
+    display: block;
+    text-align: center;
 }
 
 .stuff {
@@ -68,4 +76,20 @@ section {
 
 li, .parts {
     font-size: 1.25em;
+}
+
+form {
+    display: grid;
+    place-items: center;
+}
+
+.moneyout {
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+#error {
+    font-family: Renogare;
+    color: rgb(238, 125, 125);
 }

@@ -1,0 +1,19 @@
+@font-face {
+	font-family: Days;
+	src: url('../Days.ttf') format("truetype");
+}
+
+.back {
+    font-family: Days;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: rgb(8, 213, 213);
+}
+
+main {
+    position: relative;
+    min-height: 92vh;
+}

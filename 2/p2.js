@@ -7,7 +7,6 @@ function calculate() {
     n1 = parseInt(number1);
     n2 = parseInt(number2);
     n3 = parseInt(number3);
-  
     sum = n1 + n2 + n3;
     product = n1 * n2 * n3;
     avg = sum / 3;
